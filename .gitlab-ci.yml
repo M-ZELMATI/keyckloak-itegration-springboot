@@ -1,0 +1,22 @@
+
+
+
+
+stages:
+  - deploy
+
+deploy_backend:
+  image: maven:latest
+  stage: deploy
+  before_script:
+    - apt-get -yq update
+    - apt-get -yqq install ssh
+    - install -m 600 -D /dev/null ~/.ssh/id_rsa
+    - echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/id_rsa
+    - ssh-keyscan -H $SSH_HOST > ~/.ssh/known_hosts
+  script:
+#  failed to start
+#    - ssh $SSH_USER@$SSH_HOST "sudo lsof -ti:9090 | xargs sudo kill && rm -rf /var/www/html/tfgfa-backend && cd /var/www/html/ && git clone -b  dev https://gitlab.opsidium.com/tfgfa/tfgfa-backend.git && cd /var/www/html/tfgfa-backend && mvn clean install &&  mvn spring-boot:run"
+# kill erreur
+     - ssh $SSH_USER@$SSH_HOST "sudo  rm -rf /var/www/html/tfgfa-backend && cd /var/www/html/ && git clone -b  dev https://gitlab.opsidium.com/tfgfa/tfgfa-backend.git && cd /var/www/html/tfgfa-backend && mvn clean install &&  mvn spring-boot:run"
+

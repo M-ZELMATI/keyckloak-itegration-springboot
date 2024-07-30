@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <bornes>
+        <id>1</id>
+    </bornes>
+    <chemin>src/main/Resources/Assets/tickets/tickets_20240531174007.xml</chemin>
+    <data> tickets </data>
+    <description> tickets </description>
+    <modelTickets>
+        <id>2</id>
+    </modelTickets>
+    <name> tickets  </name>
+    <type>tickets</type>
+</infosfile>

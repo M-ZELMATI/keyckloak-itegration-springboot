@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <afficheurs>
+        <id>12</id>
+        <tpsRotation>0</tpsRotation>
+    </afficheurs>
+    <chemin>src/main/resources/Assets/afficheurs/afficheurs_20240612125302.xml</chemin>
+    <data> brd </data>
+    <description> brd </description>
+    <name> brd  </name>
+    <type>afficheurs</type>
+</infosfile>

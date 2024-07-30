@@ -1,0 +1,48 @@
+spring:
+    application:
+        name:
+            tfgfa-backend
+    jpa:
+        hibernate:
+            ddl-auto:
+                update
+            ejb:
+                interceptor: org.hibernate.cfg.ImprovedNamingStrategy
+                session_factory:
+                    use_native_entity_query: true
+        properties:
+            hibernate:
+                jdbc:
+                    lob:
+                        non_contextual_creation: true
+                    jdbc:
+                        time_zone: Africa/Casablanca
+    security:
+        oauth2:
+            resourceserver:
+                jwt:
+                    jwk-set-uri: http://192.168.100.178:8080/realms/tfgfa/protocol/openid-connect/certs
+
+
+    datasource:
+        url:
+ 
+        username:  
+            
+        password:
+           
+        oracleucp:
+            database-name:
+                
+
+
+
+server:
+    port:
+        9090
+    servlet:
+        multipart:
+            max-request-size: 50MB
+    tomcat:
+        max-swallow-size: 50MB # for example, 10 megabytes
+#        max-http-post-size: 50MB # for example, 20 megabytes

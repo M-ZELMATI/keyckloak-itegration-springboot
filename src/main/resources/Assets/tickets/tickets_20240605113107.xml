@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <chemin>src/main/Resources/Assets/tickets/tickets_20240605113107.xml</chemin>
+    <data> brd </data>
+    <description> brd </description>
+    <modelTickets>
+        <id>1</id>
+    </modelTickets>
+    <name> brd  </name>
+    <type>tickets</type>
+</infosfile>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <chemin>src/main/Resources/Assets/bornes/bornes_20240531105910.xml</chemin>
+    <data> voila ma data bornes </data>
+    <description> test 192 </description>
+    <name> test 192 </name>
+    <type>bornes</type>
+</infosfile>

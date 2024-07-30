@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <bornes>
+        <id>1</id>
+    </bornes>
+    <chemin>src/main/Resources/Assets/tickets/tickets_20240603123612.xml</chemin>
+    <data> tickets </data>
+    <description> tickets </description>
+    <name> tickets  </name>
+    <type>tickets</type>
+</infosfile>

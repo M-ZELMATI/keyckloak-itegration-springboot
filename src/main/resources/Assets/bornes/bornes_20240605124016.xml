@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <bornes>
+        <id>3</id>
+    </bornes>
+    <chemin>src/main/resources/Assets/bornes/bornes_20240605124016.xml</chemin>
+    <data> brd </data>
+    <description> brd </description>
+    <name> brd  </name>
+    <type>bornes</type>
+</infosfile>

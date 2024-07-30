@@ -1,0 +1,7 @@
+spring:
+    application:
+        name:
+            fgfa
+server:
+    port:
+        999

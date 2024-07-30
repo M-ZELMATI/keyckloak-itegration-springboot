@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <afficheurs>
+        <id>13</id>
+        <tpsRotation>0</tpsRotation>
+    </afficheurs>
+    <chemin>src/main/resources/Assets/bornes/bornes_20240612125143.xml</chemin>
+    <data> brd </data>
+    <description> brd </description>
+    <name> brd  </name>
+    <type>bornes</type>
+</infosfile>

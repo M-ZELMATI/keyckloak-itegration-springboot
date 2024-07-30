@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <bornes>
+        <id>70</id>
+    </bornes>
+    <chemin>src/main/Resources/Assets/afficheurs/afficheurs_20240531111812.xml</chemin>
+    <data> voila ma data bornes </data>
+    <description> test 192 </description>
+    <name> test 192 </name>
+    <type>afficheurs</type>
+</infosfile>

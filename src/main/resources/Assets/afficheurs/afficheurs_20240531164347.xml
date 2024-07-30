@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infosfile>
+    <bornes>
+        <id>1</id>
+    </bornes>
+    <chemin>src/main/Resources/Assets/afficheurs/afficheurs_20240531164347.xml</chemin>
+    <data> voila ma Backend </data>
+    <description> Description Backend </description>
+    <name> bornes Backend </name>
+    <tickets>
+        <id>4</id>
+    </tickets>
+    <type>afficheurs</type>
+</infosfile>
